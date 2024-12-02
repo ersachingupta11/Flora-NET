@@ -1,6 +1,6 @@
 # Title 
 Integrating Dual Coordinate Attention with Adaptive Kernel Based Convolution Network for Medicinal Flower Identification
-
+ 
 # Problem Description
 Medicinal flowers are vital part in the several domains like healthcare, cosmmetics, and many more. Accurate Classification of the medicinal flower is necessary to develop the precise herbs for disease ailments. Several deep learning methods have been deployed for classification but they fails to capture the long-range dependencies of the feature maps and hierarchical feature maps among the flora-images.
 
@@ -39,5 +39,5 @@ drive.mount('/content/drive')
 ```
 # Execute Model
 ```
-!python Flora_NET.py
+!python Flora_NET.py --epochs 100 --learning_rate 0.001 --batch_size 16
 ```
