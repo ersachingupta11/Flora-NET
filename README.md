@@ -14,6 +14,10 @@ The proposed Flora-NET method has been trained and tested on two publicly avaiab
 ```
 !pip install -r requirement.txt
 ```
+# Github Cloning
+```
+!pip install git+https://github.com/your-repository/involution.git
+```
 
 # Linking Google Drive
 ```
