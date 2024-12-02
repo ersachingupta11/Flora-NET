@@ -33,7 +33,7 @@ drive.mount('/content/drive')
 ```
 !python data_split.py
 ```
-# 
+# Execute Model
 ```
 !python Flora_NET.py
 ```
