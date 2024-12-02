@@ -10,5 +10,30 @@ The proposed Flora-NET contains the three phases: Data-processing where the imag
 # Result
 The proposed Flora-NET method has been trained and tested on two publicly avaiable flower datasets: Urban Street and Medicinal Flower Blossom datasets. The results affirmed that the proposed method overshadows the exisiting methods for precise medicinal flower classification.
 
-#Install Dependencies
+# Install Dependencies
+```
 !pip install -r requirement.txt
+```
+
+# Linking Google Drive
+```
+from google.colab import drive
+drive.mount('/content/drive')
+# List files in a specific folder
+!ls /content/drive/MyDrive
+```
+
+# Resize and Augmentation
+```
+!python resize.py
+!python conventional_augmentation.py
+```
+
+# Dataset Splitting into Training, Validation and Testing (80:10:10)
+```
+!python data_split.py
+```
+# 
+```
+!python Flora_NET.py
+```
