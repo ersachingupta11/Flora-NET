@@ -11,8 +11,8 @@ Original file is located at
 
 # define loss criterion, epochs and learning rate
 criterion = nn.CrossEntropyLoss()
-epochs = 100
-lr = 0.001
+epochs = num_epochs
+lr = num_lr
 
 """**Training and Testing**"""
 
