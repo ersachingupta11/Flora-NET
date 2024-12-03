@@ -48,3 +48,18 @@ drive.mount('/content/drive')
 ```
 !python Flora_NET.py --epochs 100 --learning_rate 0.001 --batch_size 16
 ```
+
+# Runnin Model
+```
+Epoch 1/100, Train Loss: 0.8113, Val Loss: 1.3973, Train Acc: 60.78%, Val Acc: 32.35%
+Epoch 2/100, Train Loss: 0.7734, Val Loss: 1.1708, Train Acc: 67.65%, Val Acc: 32.35%
+Epoch 3/100, Train Loss: 0.4487, Val Loss: 1.6237, Train Acc: 84.31%, Val Acc: 32.35%
+Epoch 4/100, Train Loss: 0.3942, Val Loss: 3.9511, Train Acc: 87.75%, Val Acc: 32.35%
+Epoch 5/100, Train Loss: 0.5327, Val Loss: 2.6891, Train Acc: 82.35%, Val Acc: 36.76%
+Epoch 6/100, Train Loss: 0.4236, Val Loss: 1.8359, Train Acc: 83.82%, Val Acc: 64.71%
+Epoch 7/100, Train Loss: 0.5309, Val Loss: 1.1177, Train Acc: 78.92%, Val Acc: 63.24%
+Epoch 8/100, Train Loss: 0.4148, Val Loss: 0.8682, Train Acc: 86.76%, Val Acc: 73.53%
+Epoch 9/100, Train Loss: 0.3574, Val Loss: 1.1592, Train Acc: 89.71%, Val Acc: 76.47%
+Epoch 10/100, Train Loss: 0.2397, Val Loss: 0.1462, Train Acc: 92.65%, Val Acc: 97.06%
+...
+```
