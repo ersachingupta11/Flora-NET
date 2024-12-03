@@ -19,7 +19,7 @@ The proposed Flora-NET method has been trained and tested on two publicly avaiab
 !pip install git+https://github.com/your-repository/involution.git
 ```
 
-# Linking Google Drive
+# Linking Google Drive containing Flower Images 
 ```
 from google.colab import drive
 drive.mount('/content/drive')
