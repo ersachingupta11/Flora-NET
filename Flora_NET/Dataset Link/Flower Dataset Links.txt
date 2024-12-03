@@ -1,5 +1,5 @@
-Urban Street: https://www.sciencedirect.com/science/article/pii/S0168169923002405
+Urban Street flower dataset: https://www.sciencedirect.com/science/article/pii/S0168169923002405
 
-Medicinal Blossom: https://www.sciencedirect.com/science/article/pii/S2352340921009306
+Medicinal Blossom flower dataset: https://www.sciencedirect.com/science/article/pii/S2352340921009306
 
-IMFI: https://data.mendeley.com/datasets/kk8h65th9n/1
+IMFI flower dataset: https://data.mendeley.com/datasets/kk8h65th9n/1
