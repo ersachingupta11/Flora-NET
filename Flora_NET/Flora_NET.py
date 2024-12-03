@@ -311,6 +311,13 @@ class FloraNETClassification(nn.Module):
         x = self.classification_block(x)  # Apply the Classification Block
         return x
 
+"""**Importing the Command Line Arguments**"""
+import sys
+# Access command-line arguments directly
+num_epoch = int(sys.argv[1])
+num_lr = float(sys.argv[2])
+num_batch = int(sys.argv[3])
+
 """**Flora-NET Model**"""
 
 import torch
