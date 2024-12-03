@@ -10,6 +10,13 @@ The proposed Flora-NET contains the three phases: Data-processing where the imag
 # Result
 The proposed Flora-NET method has been trained and tested on two publicly avaiable flower datasets: Urban Street and Medicinal Flower Blossom datasets. The results affirmed that the proposed method overshadows the exisiting methods for precise medicinal flower classification.
 
+# Repo Structure
+The Flora-NET method has the following structure:
+- `.py files`: `.py` scripts with training, inference and image processing functions
+- `datafiles/`: input data (images are not included due to size constraints) from each class of Urban Street and Medicinal Blossom datasets
+- `Dataset Link/`: Contains the URLs for the public datasets and can be downloaded  [Urban Street](https://www.sciencedirect.com/science/article/pii/S0168169923002405) and [Medicinal Blossom](https://www.sciencedirect.com/science/article/pii/S0168169923002405)
+- `pretraining/`: weights and configurations of models pre-trained on external datasets
+
 # Install Dependencies
 ```
 !pip install -r requirement.txt
