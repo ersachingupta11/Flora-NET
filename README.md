@@ -1,19 +1,19 @@
 # Title 
-Integrating Dual Coordinate Attention with Adaptive Kernel Based Convolution Network for Medicinal Flower Identification
+Integrating Dual Coordinate Attention with Adaptive Kernel-Based Convolution Network for Medicinal Flower Identification
  
 # Problem Description
-Medicinal flowers are vital part in the several domains like healthcare, cosmmetics, and many more. Accurate Classification of the medicinal flower is necessary to develop the precise herbs for disease ailments. Several deep learning methods have been deployed for classification but they fails to capture the long-range dependencies of the feature maps and hierarchical feature maps among the flora-images.
+Medicinal flowers are a vital part of several domains like healthcare, cosmetics, and many more. Accurate classification of medicinal flowers is necessary to develop precise herbs for disease ailments. Several deep learning methods have been deployed for classification, but they fail to capture the long-range dependencies of the feature maps and hierarchical feature maps among the flora-images.
 
 # Proposed Study
-The proposed Flora-NET contains the three phases: Data-processing where the images have been uniformly resized to 224 x 224 followed by the conventional image augmentation methods. The second phase includes the DCAFE and inv-FR modules for better feature extraction and refinement. The third phase contains the classification module for flower identification.
+The proposed Flora-NET contains three phases: Data-processing, where the images have been uniformly resized to 224 x 224, followed by the conventional image augmentation methods. The second phase includes the DCAFE and inv-FR modules for better feature extraction and refinement. The third phase contains the classification module for flower identification.
 
 # Result
-The proposed Flora-NET method has been trained and tested on two publicly avaiable flower datasets: Urban Street and Medicinal Flower Blossom datasets. The results affirmed that the proposed method overshadows the exisiting methods for precise medicinal flower classification.
+The proposed Flora-NET method has been trained and tested on two publicly available flower datasets: Urban Street and Medicinal Flower Blossom datasets. The results affirmed that the proposed method overshadows the existing methods for precise medicinal flower classification.
 
 # Repo Structure
 The Flora-NET method has the following structure:
-- `.py files`: `.py` scripts with training, inference and image processing functions
-- `datafiles/`: input data (images are not included due to size constraints) from each class of Urban Street and Medicinal Blossom datasets
+- `.py files`: `.py` scripts with training, inference, and image processing functions
+- `Exemplary Datafiles/`: input data (images are not included due to size constraints) from each class of Urban Street and Medicinal Blossom datasets
 - `Dataset Link/`: Contains the URLs for the public datasets and can be downloaded  [Urban Street](https://www.sciencedirect.com/science/article/pii/S0168169923002405) and [Medicinal Blossom](https://www.sciencedirect.com/science/article/pii/S0168169923002405)
 - `pretraining/`: weights and configurations of models pre-trained on external datasets
 
