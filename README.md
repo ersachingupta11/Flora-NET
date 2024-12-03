@@ -15,7 +15,7 @@ The Flora-NET method has the following structure:
 - `.py files`: `.py` scripts with training, inference, and image processing functions
 - `Exemplary Datafiles/`: input data (images are not included due to size constraints) from each class of Urban Street and Medicinal Blossom datasets
 - `Dataset Link/`: Contains the URLs for the public datasets and can be downloaded  [Urban Street](https://www.sciencedirect.com/science/article/pii/S0168169923002405) and [Medicinal Blossom](https://www.sciencedirect.com/science/article/pii/S0168169923002405)
-- `pretraining/`: weights and configurations of models pre-trained on external datasets
+- `pretrainedmodels/`: weights and configurations of models pre-trained on external datasets
 
 # Install Dependencies
 ```
